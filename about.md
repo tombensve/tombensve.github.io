@@ -8,7 +8,7 @@ This is a simple Jekyll based blog.
 
 ## Links
 
-[Natusoft home page](http://www.natusoft.se)
+[Natusoft home page](http://www.natusoft.se) (in Swedish)
 
 [Tommys GitHub Repos](https://github.com/tombensve)
 
