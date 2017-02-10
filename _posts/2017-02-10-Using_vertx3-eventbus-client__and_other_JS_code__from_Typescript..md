@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using_vertx3-eventbus-client_(and_other_JS_code)_from_Typescript."
+title:  "Using vertx3-eventbus-client (and other JS code) from Typescript."
 date:   2017-02-10 18:04:12 +0100
 categories: typescript solution vertx3
 ---
