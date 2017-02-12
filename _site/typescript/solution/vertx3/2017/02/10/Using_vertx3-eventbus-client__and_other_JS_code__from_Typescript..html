@@ -113,25 +113,21 @@
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;title&gt;</span>APSAdminWeb<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;title&gt;</span>APS Admin Web<span class="nt">&lt;/title&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="nt">&gt;</span>
 
+    <span class="c">&lt;!-- Polyfills --&gt;</span>
     <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"node_modules/core-js/client/shim.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
     <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"node_modules/zone.js/dist/zone.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-
-    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"node_modules/typescript/lib/typescript.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"node_modules/systemjs/dist/system.src.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-
-    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"systemjs.config.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 
     <span class="c">&lt;!-- Make vertx3-eventbus-client available! --&gt;</span>
     <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"node_modules/sockjs-client/dist/sockjs.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
     <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"node_modules/vertx3-eventbus-client/vertx-eventbus.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 
-    <span class="nt">&lt;script&gt;</span>
-        <span class="nx">System</span><span class="p">.</span><span class="kr">import</span><span class="p">(</span><span class="s1">'app'</span><span class="p">).</span><span class="k">catch</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="nx">console</span><span class="p">));</span>
-    <span class="nt">&lt;/script&gt;</span>
+    <span class="c">&lt;!-- The app! --&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"static/adminweb-bundle.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
 <span class="nt">&lt;/head&gt;</span>
 
 <span class="nt">&lt;body&gt;</span>
@@ -141,6 +137,8 @@
 <span class="c">&lt;!--&lt;router-outlet&gt;&lt;/router-outlet&gt;--&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<p>Note that <em>static/adminweb-bunlde.js</em> is created by Webpack.</p>
 
 <p>The next part, in Typescript, to use the EventBus you have to declare it so that Typescript recognizes it:</p>
 

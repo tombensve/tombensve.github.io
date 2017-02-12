@@ -63,25 +63,21 @@ First _vertx3-eventbus-client_ and its dependency _sockjs-client_ needs to be lo
 <!DOCTYPE html>
 <html>
 <head>
-    <title>APSAdminWeb</title>
+    <title>APS Admin Web</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Polyfills -->
     <script src="node_modules/core-js/client/shim.min.js"></script>
     <script src="node_modules/zone.js/dist/zone.js"></script>
-
-    <script src="node_modules/typescript/lib/typescript.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-
-    <script src="systemjs.config.js"></script>
 
     <!-- Make vertx3-eventbus-client available! -->
     <script src="node_modules/sockjs-client/dist/sockjs.min.js"></script>
     <script src="node_modules/vertx3-eventbus-client/vertx-eventbus.js"></script>
 
-    <script>
-        System.import('app').catch(console.error.bind(console));
-    </script>
+    <!-- The app! -->
+    <script src="static/adminweb-bundle.js"></script>
+
 </head>
 
 <body>
@@ -92,6 +88,7 @@ First _vertx3-eventbus-client_ and its dependency _sockjs-client_ needs to be lo
 </body>
 </html>
 {% endhighlight %}
+Note that _static/adminweb-bunlde.js_ is created by Webpack. 
 
 The next part, in Typescript, to use the EventBus you have to declare it so that Typescript recognizes it:
 
