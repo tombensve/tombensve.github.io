@@ -11,13 +11,13 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 18px/1.5 "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 20px/1.5 "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*
   color: #111;
   background-color: #fdfdfd;
   */
   background: #303030;
-  color: #EEDDCC;
+  color: #DDCCCC;
   
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
