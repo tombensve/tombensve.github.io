@@ -11,7 +11,7 @@ Being a long time server side developer I've decided to learn a bit of client si
 
 I decided that rather than playing with dummy code to learn I'll redo a web app I already have, done in Vaadin. That gives me a very clear specification what to do. Vaading of course requires a JEE webcontainer since it uses servlets. With the years, I'm liking JEE less and less. It is starting to feel like an neccesarry evil that can't be avoided. I really did not want to use a JEE webcontainer to serve REST calls, I wanted something smaller, less heavy. 
 
-Fortunately I stumbled upon something __wonderful__: [Vertx 3](http://vertx.io/)\! Really cool! Really simple to use! So far, just works! The many horrors I've experienced with the Eclipse IDE tend to make me turn around and run when I see the word "Eclipse" anywhere, but Vertx is an Eclipse project and I must say that I have the highest respect for the people behind it! 
+Fortunately I stumbled upon something __wonderful__: [Vertx 3](http://vertx.io/)\! Really cool\! Really simple to use! So far, just works! The many horrors I've experienced with the Eclipse IDE tend to make me turn around and run when I see the word "Eclipse" anywhere, but Vertx is an Eclipse project and I must say that I have the highest respect for the people behind it! 
 
 Having Vertx on the server side made me decide to use the Vertx EventBus for communication between client and server by sending messages both ways. There is an Vertx3-eventbus-client.js available from the Vertx team to make it usable from Javascript both in node.js and in browsers.
 
@@ -55,9 +55,9 @@ So I decided that this was probably not the correct way to do it. So I googled, 
 
 Importing the _EventBus_ was also wrong way to go since when run vertx3-eventbus-client.js did not provide what was expected.  
 
-## The solution (so far ...)
+## The solution
 
-First _vertx3-eventbus-client_ and its dependency _sockjs-client_ needs to be loaded. The only solution I found for this was to include them in the index.html file:
+I did start with something else, don't remember what, that failed to include all dependencies, but when I switched to WebPack I was able to get all dependencies into my bundle.js only requiring a very simple index.html.
 
 {% highlight html %}
 <!DOCTYPE html>
@@ -67,30 +67,19 @@ First _vertx3-eventbus-client_ and its dependency _sockjs-client_ needs to be lo
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Polyfills -->
-    <script src="node_modules/core-js/client/shim.min.js"></script>
-    <script src="node_modules/zone.js/dist/zone.js"></script>
-
-    <!-- Make vertx3-eventbus-client available! -->
-    <script src="node_modules/sockjs-client/dist/sockjs.min.js"></script>
-    <script src="node_modules/vertx3-eventbus-client/vertx-eventbus.js"></script>
-
-    <!-- The app! -->
     <script src="static/adminweb-bundle.js"></script>
 
 </head>
 
 <body>
-
 <aps-admin-web>Loading...</aps-admin-web>
 <hr/>
 <!--<router-outlet></router-outlet>-->
-</body>
+</body> 
 </html>
 {% endhighlight %}
-Note that _static/adminweb-bunlde.js_ is created by Webpack. 
 
-The next part, in Typescript, to use the EventBus you have to declare it so that Typescript recognizes it:
+I at first tried the following: 
 
 {% highlight typescript %}
 declare class EventBus {
@@ -105,147 +94,39 @@ declare class EventBus {
 }
 {% endhighlight %} 
 
-After this Typescript becomes happy with using EventBus. 
+This of course did not work! Probably because I'm declaring a Typescript class of something that isn't a Typescript compatible JS code.
 
-To have one instance of this to inject in Angular 2 components, I made an Vertx3EventBusFacade.ts:
+So this was a complete bust! So, what to do then ? When failing, pick yourself up and try again, and again util success or something like that. Well my first fail was at googling, so I tried that again, and ... [Success](https://gist.github.com/benorama/93373c3c1c3574732d6cc1b4754aab9f)! It was actually through [this](https://github.com/vert-x3/vertx-stack/issues/61#issuecomment-295259388) were mikeagarza posted the link. The class is created by [benorama](https://gist.github.com/benorama) (Benoit Hediard). Thanks for that!
+
+Here is the small code I used to test:
 
 {% highlight typescript %}
-import { Injectable       } from "@angular/core";
+        this.eventBusProvider = new EventBusService();
+        this.eventBusProvider.connect("http://192.168.1.60:9080/eventbus/");
+        let headers : Array<string>;
+        headers = [];
+        this.eventBusProvider.publish("aps.adminweb", "{\"content\": \"Hello!\"}", headers);
+{% endhighlight %}
 
-/**
- * External declaration of EventBus part of vertx3-eventbus-client.
- * <p/>
- * This is required in index.html:
- * <pre>
- *     <script src="node_modules/sockjs-client/dist/sockjs.min.js"></script>
- *     <script src="node_modules/vertx3-eventbus-client/vertx-eventbus.js"></script>
- * </pre>
- */
-declare class EventBus {
-    public constructor( url : string, options : Object);
+I have verified that I can connect and send a message that does arrive using this. This is a clean implementation of the Vertx event bus client done entirely in Typescript. It does not take any args in the constructor, but have a `connect(...)` method instead to make it Angular2 injectable. Very nice.
 
-    public onerror : Function;
-    public send(address : string, message : string, headers : Array<string>, replyCallback : Function) : Function;
-    public publish(address : string, message : string, headers : Array<string>) : Function;
-    public registerHandler(address : string, headers : Array<string>, callback : Function) : Function;
-    public unregisterHandler(address : string, headers : Array<string>, callback : Function) : Function;
-    public close() : Function;
-}
+The following server code sets up the bridge (Groovy code!):
+{% highlight groovy %}
+            ...
+            def inboundPermitted = [address: "aps.adminweb"]
+            def outboundPermitted = [address: "aps.adminweb"]
+            def options = [
+                    inboundPermitteds: [inboundPermitted],
+                    outboundPermitteds: [outboundPermitted]
+            ] as Map<String, Object>
 
-/**
- * Provides a facade around the JavaScript EventBusProvider code to make it play better with TypeScript.
- */
-@Injectable()
-export class Vertx3EventBusFacade  {
-    //
-    // Private Members
-    //
+            // Note that this router is already bound to an HTTP server!
+            SockJSHandler sockJSHandler = SockJSHandler.create(this.vertx)
+            sockJSHandler.bridge(options) 
+            this.router.route("/eventbus/*").handler(sockJSHandler)
+    
+{% endhighlight %}
 
-    /** Our real eventbus client instance. */
-    private eventBus : EventBus;
+ 
 
-    private errMsg : string;
 
-    //
-    // Constructors
-    //
-
-    /**
-     * Creates a new EventBusFacate
-     * @param url
-     * @param options
-     */
-    public constructor(url : string, options : Object) {
-        this.eventBus = new EventBus(url, options); // TS7009 Can't get rid of this red marking, but works fine.
-        this.eventBus.onerror = (err: Error) : void => {
-            console.log(err);
-            this.errMsg = err.toString();
-            this.eventBus = null;
-        };
-    }
-
-    //
-    // Methods
-    //
-
-    private validate() : void {
-        if (this.eventBus == null) {
-            throw new Error(`EventBus not connected! [${this.errMsg}]`);
-        }
-    }
-
-    /**
-     * Sends a message that will have one received and one reply.
-     *
-     * @param address The address of the message.
-     * @param message The message to send.
-     * @param replyCallback This will be called with a reply to this specific message.
-     * @param headers Array of data, depends on implementation. Optional.
-     */
-    public send(address : string, message : string, replyCallback : Function, headers? : Array<string> ) : Vertx3EventBusFacade {
-        this.validate();
-
-        this.eventBus.send(address, message, headers, replyCallback);
-
-        return this;
-    }
-
-    /**
-     * Publishes a message to all listeners on the bus.
-     *
-     * @param address The address of the message.
-     * @param message The message to publish.
-     * @param headers Array of data, depends on implementation. Optional.
-     */
-    public publish(address : string, message : string, headers? : Array<string>) : Vertx3EventBusFacade {
-        this.validate();
-
-        this.eventBus.publish(address, message, headers);
-
-        return this;
-    }
-
-    /**
-     * Adds a handler for when messages are received.
-     *
-     * @param address The address to listen to.
-     * @param callback The callback that will be called with new messges.
-     * @param headers Filter messages on these headers. Optional.
-     */
-    public addHandler (address : string, callback : Function, headers : Array<string> ) : Vertx3EventBusFacade {
-        this.validate();
-
-        this.eventBus.registerHandler(address, headers, callback);
-
-        return this;
-    }
-
-    /**
-     * Removes a previously added handler.
-     *
-     * @param address The address to listen to.
-     * @param callback The callback that should be removed.
-     * @param headers Filer messages on these headers. Optional.
-     */
-    public removeHandler(address : string, callback : Function, headers : Array<string>) : Vertx3EventBusFacade {
-        this.validate();
-
-        this.eventBus.unregisterHandler(address, headers, callback);
-
-        return this;
-    }
-
-    /**
-     * Closes the connection to the eventbus. After this the instance is useless.
-     */
-    public close() : void {
-        if (this.eventBus != null) {
-            this.eventBus.close();
-        }
-    }
-}
-{% endhighlight %} 
-
-I haven't made any server side code yet, but the the constructor runs fine and tries to connect, which of course fails due to no service listening yet. Now it is failing in a way I'm expecting it to :-). 
-
-I will update this post later when I have service up and running and tested everything roundtrip. 
