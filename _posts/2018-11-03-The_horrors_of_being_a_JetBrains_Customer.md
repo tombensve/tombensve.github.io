@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The_horrors_of_being_a_JetBrains_Customer"
+title:  "The horrors of being a JetBrains Customer"
 date:   2018-11-03 13:40:04 +0100
 categories: 
 ---
