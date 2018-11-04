@@ -9,17 +9,19 @@ I\'ve been using IntelliJ IDEA from JetBrains for many years. It has been a very
 
 I've been very satisfied with JetBrains customer service for a long time also, but something have clearly happened both on the developer side and customer side. A clear degradation.
 
-My YouTrack subscription and my IDEA subscription were comming to a renewal point, and I had to change payment method due to a new credit card. Now on account.jetbrains.com, my IDEA and YouTrack where on different payment methods and I wanted to join them to the same which was far from clear how to do. I had a lot of communication with JetBrains support. There were problems both getting them to use the same payment method and updating the card info in the payment method. It took several rounds to make this at least seemingly happen. It was JetBrains support that helped me get this right and they ensured me it now was correct. 
+I had a subscription of both IDEA and YouTrack. Now I don't have either, and it is entierly the fault of JetBrains.
 
-Then suddenly I got a mail about my YouTrack expiring and that I needed a payment method. I now only had one and it should be the payment method of both tools. I did get a bit angry at them when this came shortly after we fixed this, and I wrote them about it. They actually called me back on my phone and ensured me that everything was OK!
+JetBrains made some change in how to handle payments and I was forced to update to new "payment methods". It was not completely obvoius after having setup a new credit card payment method, how to connect this to the products. It took me several attempts through their support. I suspect that JetBrains have lost a lot of employees and hired new support staff that really does not speak Englsih very well. I did get a lot of idiot answers that had no relation to the question. It was a real fight to get them to understand the problem, and then to figure out how to solve it. But after a lot of mail conversations there were finally my credit card payment method assigned to both IDEA and YouTrack. That is at least what they told me. It also looked like it when logged in on account.jetbrains.com. 
 
-Now I'm locked out of YouTrack, and my IDEA license has also expired without a possibility to renew, and that is not possible with YouTrack either since it is completely gone from my account. So this resulted in new mail conversations where I have to admit to being really, really angry! This has been grossly incompetently handled by the "JetBrains", whose name now feels laughable. 
+Rather shortly after this I got a mail saying my YouTrack subscription was reaching renewal time and did not have a payment method! This made me quite upset after the very recent pain of getting this resolved. I got really angry at them, and told them that they needed to fix this. This resulted in someone from JetBrains calling me on the phone and ensuring me that everything was OK and the the renewal would be fine. 
 
-It was not I, but JetBrains that put me in this position. I have really tried to resolve this, and JetBrains have confirmed that everything is OK, and then I’m locked out for not paying when there is a perfectly valid payment method on my account. 
+Now, after the renewal time has passsed I'm standing without a renewal and are locked out of YouTrack. My account.jetbrains.com now contains a very old perpetual licence and a fresh, just expired ToolBox subscription that for some reason have no renewal option. YouTrack is completely gone from my account. 
 
-This is of course not acceptable behavior for any business that actually wants to have customers. I suspect that the "jet" brains have reached a level of arrogance that makes them believe that they can treat customers in any way and still keep them. Very unfortunately they might be right. They are competing with a commercial product against 2 open source products, and theirs is the most popular one! I’ll give them that. But treating their customers like crap must have an effect in the end. JetBrains are in need of serious competition! 
+I did everything I possibly could to avoid this from happening. This is 100% JetBrains fault!
 
-Unfortunately I cannot just go to the JB store an purchase a new IDEA license. That will start me over att full price! It wasn't me, but JetBrains that let my subsription run out. There is a very valid payment method on my account. That their own home written systems doesn't work is entirely their fault. I'm also still locked out of YouTrack and can't do anything about it this being a saturday and JetBrains apparently have 0 people on the support during weekends.
+Since I've been a longtime user of IDEA I had a long time customer price. Placing a new order for IDEA license will make it quite much more expensive. JetBrains seriously does not appreciate customers!
+
+
 
 
 
