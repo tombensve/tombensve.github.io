@@ -17,6 +17,8 @@ Rather shortly after this I got a mail saying my YouTrack subscription was reach
 
 Now, after the renewal time has passsed I'm standing without a renewal and are locked out of YouTrack. My account.jetbrains.com now contains a very old perpetual licence and a fresh, just expired ToolBox subscription that for some reason have no renewal option. YouTrack is completely gone from my account. 
 
+Since JetBrains charge $1 on the card and then returns the same about just to verify the card when you add cardinfo I know the card info is 100% correct. So this is not a payment problem. It is a problem with JetBrains own account software not functioning correctly. I had a valid payment method and 2 product associated with that payment method, and still they failed to renew.
+
 I did everything I possibly could to avoid this from happening. This is 100% JetBrains fault!
 
 Since I've been a longtime user of IDEA I had a long time customer price. Placing a new order for IDEA license will make it quite much more expensive. JetBrains seriously does not appreciate customers!
