@@ -1,6 +1,7 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
----
+# Info and a little bloggish stuff ...
+
+## Development (Java / Groovy)
+
+### Tips
+
+- [Making sure IDEA can do naven build from both IDEA maven tab anbd from terminal](https://www.craft.me/s/lGZUtgdhyazUUA)
