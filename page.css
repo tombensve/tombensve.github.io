@@ -86,7 +86,7 @@ hr {
     height: 0.2em;
     border: 0;
     color: #CCCCCC;
-    background-color: #CCCCCC;
+    background-color: inherit;
 }
 
 p, ul, ol, dl, li, table, pre {
