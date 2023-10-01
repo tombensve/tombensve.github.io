@@ -41,7 +41,7 @@ body {
     margin:auto;
     max-width:55em;
     background: #2a2a2a;
-    color: #585555;
+    color: #838383;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,14 +50,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     background-color: inherit;
-    color: #000000;
+    color: inherit;
     font-size: 28px;
 }
 
 h2 {
     background-color: inherit;
     border-bottom: 1px solid #CCCCCC;
-    color: #000000;
+    color: inherit;
     font-size: 24px;
 }
 
