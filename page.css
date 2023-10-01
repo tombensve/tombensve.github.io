@@ -41,7 +41,7 @@ body {
     margin:auto;
     max-width:55em;
     background: #2a2a2a;
-    color: #838383;
+    color: #b6b7b2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -124,7 +124,7 @@ pre > code {
 }
 
 a, a:visited {
-    color: #b76351;
+    color: #959392;
     background-color: inherit;
     text-decoration: none;
 }
