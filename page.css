@@ -38,6 +38,7 @@
 body {
     font-family: Helvetica, Arial, Freesans, clean, sans-serif;
     padding:1em;
+    padding-top:80em;
     margin:auto;
     top-margin:100px;
     max-width:55em;
