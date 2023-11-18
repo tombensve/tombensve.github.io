@@ -126,7 +126,7 @@ pre > code {
 }
 
 a, a:visited {
-    color: inherit;
+    color: #deddd0;
     background-color: inherit;
     text-decoration: none;
 }
