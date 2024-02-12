@@ -1,6 +1,6 @@
 [Go to my GiotHub Repos](https://github.com/tombensve/)
 
-# Tommy Bengt Svenssons (TBS) GitHub repos
+# General info
 
 I'm a software developer that wrote my first code on a [Sinclair ZX-80 machine](https://en.wikipedia.org/wiki/ZX80)
 when I was 12. When I was 13 I got the ZX81, which also could display information on the screen at the same time as
@@ -18,7 +18,7 @@ descicion to skip backwards compatibility from 12 and upp! I think that was stup
 as a consultant have gone past Java 11! That says something IMHO. Java 6 was seen as a very good release. That 
 is because it took 4 or 5 years until Java 7. That provided stability! 
 
-### Current status
+## Current status
 
 _I'm walking on the road to Alzheimers! I'm now on 100% sick leave until retirement._ This means that I have more
 time with my GitHub projects, but also that I'm slower, quite slower actually. My short term memory really sucks. But I will keep
@@ -61,7 +61,7 @@ Here is the configuration needed to access my binaries on Repsy.
         </pluginRepository>
     </pluginRepositories>    
 
-**Do note that my old webserver will stop working around April 2024!!**   
+**Do note that binaries on my old webserver will stop working around April 2024!!**   
 
 _In case you are already using something from me and have the old repository
 setup then you need to update to the above!_ 
