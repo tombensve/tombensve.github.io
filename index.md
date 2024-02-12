@@ -1,3 +1,5 @@
+[Go to my GiotHub Repos](https://github.com/tombensve/)
+
 # Tommy Bengt Svenssons (TBS) GitHub repos
 
 I'm a software developer that wrote my first code on a [Sinclair ZX-80 machine](https://en.wikipedia.org/wiki/ZX80)
@@ -19,8 +21,8 @@ is because it took 4 or 5 years until Java 7. That provided stability!
 ### Current status
 
 _I'm walking on the road to Alzheimers! I'm now on 100% sick leave until retirement._ This means that I have more
-time with my GitHub projects, but also that I'm slower. My short term memory really sucks. But I will keep
-on coding here for as long as I can. My doctor encourage me to continue this. This does not mean that I 
+time with my GitHub projects, but also that I'm slower, quite slower actually. My short term memory really sucks. But I will keep
+on coding here for as long as I can. My doctor encourage me to continue this to stimulate my brain. This does not mean that I 
 will lower my own requirements, but it will take longer to implement them.
 
 ## My GitHub repos
@@ -29,9 +31,9 @@ Are partly for need, but mostly a place were I'm having fun and stimulating my b
 
 It is so far only Java, Groovy and some JS here. I have decided to use Groovy
 as much as possible, because it is a superb language and completely compatible 
-with Java! You can write better code in Groovy than with Java, and Groovy have 
+with Java! You can write way better code in Groovy than with Java, and Groovy have 
 always had features that Java didn't get until 1.8, and Groovy still does it 
-better! The people behind Groovy know what they are doing! 
+better! The people behind Groovy know what they are doing. I'm a big fan!
 
 ## Binaries
 
@@ -40,6 +42,8 @@ as Bintray was to setup and use. JFrog did offer free Artifactory instances for 
 code after they shut down bintray. I got such an account and tried to set it up, but
 finally gave upp. Far too incomprehensible! I have been publishing binaries on my private web
 server, but a repo like Repsy is by far better.
+
+Here is the configuration needed to access my binaries on Repsy.
 
     <repositories>
         <repository>
@@ -57,7 +61,10 @@ server, but a repo like Repsy is by far better.
         </pluginRepository>
     </pluginRepositories>    
 
-**Do note that my old webserver will stop working around April 2024!!**    
+**Do note that my old webserver will stop working around April 2024!!**   
+
+_In case you are already using something from me and have the old repository
+setup then you need to update to the above!_ 
 
 ----
 
@@ -81,3 +88,23 @@ to share my binaries. Its as easy as Bintray was.
 
 It is also possible to checkout my repo and build it with `mvn install`. 
 After that there will be binaries in your `~/.m2/` folder. 
+
+[My GitHub Repos](https://github.com/tombensve/)
+
+----
+
+# Blogish
+
+These are mostly things I've run into and had to solve, and I decribe it here to help others with
+same problems and also future me. 
+
+These are very sporadic!
+
+## Coding related
+
+[IDEA failing build due to some missing StringUtils ? Switch to maven wrapper!](https://www.craft.me/s/lGZUtgdhyazUUA)
+
+[GitHub Projects has become very useful since I last checked!](https://www.craft.me/s/Qu100l9JZkHakZ) I which I had discovered this earlier rather than fight YouTrack<->IDEA!
+
+[Quarkus tip for those new to Quarkus](https://rooms-lie-gal.craft.me/9raYR8WL0547n6)
+
