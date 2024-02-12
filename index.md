@@ -1,4 +1,4 @@
-[Go to my GiotHub Repos](https://github.com/tombensve/)
+[Go to my GitHub Repos](https://github.com/tombensve/)
 
 # General info
 
