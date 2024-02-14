@@ -14,16 +14,6 @@ descicion to skip backwards compatibility from 12 and upp! I think that was stup
 as a consultant have gone past Java 11! That says something IMHO. Java 6 was seen as a very good release. That 
 is because it took 4 or 5 years until Java 7. That provided stability! 
 
-## Current status
-
-_I have early onset dementia, and are walking on the road to Alzheimers!_ 
-
-This means that I have more time with my GitHub projects, but also that I'm slower, 
-quite slower actually. My short term memory really sucks. But I will keep
-on coding here for as long as I can. My doctor encourage me to continue this to stimulate 
-my brain. This does not mean that I will lower my own requirements, but it will take longer 
-to implement them.
-
 ## My GitHub repos
 
 Are partly for need, but mostly a place were I'm having fun and stimulating my brain.
@@ -64,6 +54,16 @@ Here is the configuration needed to access my binaries on Repsy.
 
 _In case you are already using something from me and have the old repository
 setup then you need to update to the above!_ 
+
+## Current status
+
+_I have early onset dementia, and are walking on the road to Alzheimers!_ 
+
+This means that I have more time with my GitHub projects, but also that I'm slower, 
+quite slower actually. My short term memory really sucks. But I will keep
+on coding here for as long as I can. My doctor encourage me to continue this to stimulate 
+my brain. This does not mean that I will lower my own requirements, but it will take longer 
+to implement them.
 
 ----
 
@@ -107,3 +107,8 @@ These are very sporadic!
 
 [Quarkus tip for those new to Quarkus](https://rooms-lie-gal.craft.me/9raYR8WL0547n6)
 
+----
+
+_This is an index.md page and GitHub does not allow a CSS file for markdown documents._
+
+_It is however much easier to edit this within Github in a browser!_
