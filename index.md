@@ -1,16 +1,12 @@
 [Go to my GitHub Repos](https://github.com/tombensve/)
 
-# General info
+# History
 
-I'm a software developer that wrote my first code on a [Sinclair ZX-80 machine](https://en.wikipedia.org/wiki/ZX80)
-when I was 12. When I was 13 I got the ZX81, which also could display information on the screen at the same time as
-processing! :-). At 14 my family moved from Stockholm, Sweden to Seattle, USA. There I got a [TRS-80 Color Computer](https://en.wikipedia.org/wiki/TRS-80_Color_Computer) made
-by Tandy. It had a total of 8 colors! It also had a Motorola 6809 processor and could thereby run the [OS9](https://www.microware.com/) fully
-multitasking operating system, very much inspired by unix, and this on a machine with only 32K of memory! 
+I'm a software developer that wrote my first code on a when I was 12. Here is some machine and OS I've used.
 
-I  moved back to Sweden when I was 21. Eventually starting my career (after required military service) at Ericsson, 
-where I had no problems comprehending the SUN Unix machines since it felt very much like OS9. My college did not 
-have unix machines at that time, only a "Mainframe", don't remember brand, with terminals which you had to use for excercises.
+- [Sinclair ZX-80 machine](https://en.wikipedia.org/wiki/ZX80)
+- [TRS-80 Color Computer](https://en.wikipedia.org/wiki/TRS-80_Color_Computer)
+- [OS9](https://www.microware.com/)
 
 I wrote C code at the beginning, but became a consultant later and happend to be in a project using Java 1.0.
 Be glad if you missd that! But Java has gotten better and better over time. I am however not in agreement with Oracles
@@ -20,10 +16,13 @@ is because it took 4 or 5 years until Java 7. That provided stability!
 
 ## Current status
 
-_I'm walking on the road to Alzheimers! I'm now on 100% sick leave until retirement._ This means that I have more
-time with my GitHub projects, but also that I'm slower, quite slower actually. My short term memory really sucks. But I will keep
-on coding here for as long as I can. My doctor encourage me to continue this to stimulate my brain. This does not mean that I 
-will lower my own requirements, but it will take longer to implement them.
+_I have early onset dementia, and are walking on the road to Alzheimers!_ 
+
+This means that I have more time with my GitHub projects, but also that I'm slower, 
+quite slower actually. My short term memory really sucks. But I will keep
+on coding here for as long as I can. My doctor encourage me to continue this to stimulate 
+my brain. This does not mean that I will lower my own requirements, but it will take longer 
+to implement them.
 
 ## My GitHub repos
 
