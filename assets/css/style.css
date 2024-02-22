@@ -110,7 +110,7 @@ code, pre {
 }
 
 code {
-    border: 1px solid #EAEAEA;
+    /*border: 1px solid #EAEAEA;*/
     margin: 0 2px;
     padding: 0 5px;
 }
