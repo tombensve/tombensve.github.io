@@ -110,13 +110,13 @@ code, pre {
 }
 
 code {
-    border: 0px solid #EAEAEA;
+    border: 0px; /*solid #EAEAEA;*/
     margin: 0 2px;
     padding: 0 5px;
 }
 
 pre {
-    border: 1px solid #CCCCCC;
+    #border: 1px solid #CCCCCC;
     line-height: 1.25em;
     overflow: auto;
     padding: 6px 10px;
