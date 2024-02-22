@@ -104,7 +104,7 @@ blockquote {
 }
 
 code, pre {
-    border-radius: 5px;
+    border-radius: 0px;
     background: #303030;
     color: #a0a0a0;
 }
