@@ -2,9 +2,9 @@
 
 # History
 
-I'm a software developer that wrote my first code on a when I was 12. Here is some machine and OS I've used.
+I'm a software developer that wrote my first code on a when I was 12. Here is some hardware and OS:es I've used:
 
-- [Sinclair ZX-80 machine](https://en.wikipedia.org/wiki/ZX80)
+- [Sinclair ZX-80 & zx-81 machines](https://en.wikipedia.org/wiki/ZX80)
 - [TRS-80 Color Computer](https://en.wikipedia.org/wiki/TRS-80_Color_Computer)
 - [OS9](https://www.microware.com/)
 
@@ -14,7 +14,7 @@ descicion to skip backwards compatibility from 12 and upp! I think that was stup
 as a consultant have gone past Java 11! That says something IMHO. Java 6 was seen as a very good release. That 
 is because it took 4 or 5 years until Java 7. That provided stability! 
 
-## My GitHub repos
+# My GitHub repos
 
 Are partly for need, but mostly a place were I'm having fun and stimulating my brain.
 
@@ -24,7 +24,7 @@ with Java! You can write way better code in Groovy than with Java, and Groovy ha
 always had features that Java didn't get until 1.8, and Groovy still does it 
 better! The people behind Groovy know what they are doing. I'm a big fan!
 
-## Binaries
+# Binaries
 
 My binaries are now made available on [Repsy.io](https://repsy.io/), which is as easy
 as Bintray was to setup and use. JFrog did offer free Artifactory instances for open source
@@ -55,7 +55,7 @@ Here is the configuration needed to access my binaries on Repsy.
 _In case you are already using something from me and have the old repository
 setup then you need to update to the above!_ 
 
-## Current status
+# Current status
 
 _I have early onset dementia, and are walking on the road to Alzheimers!_ 
 
@@ -67,7 +67,7 @@ to implement them.
 
 ----
 
-## Why not maven central ? 
+# Why not maven central ? 
 
 Well, I did that once and that was an absolutely
 horrible process to go through! I sent a mail to maven users list saying
