@@ -76,18 +76,7 @@ After that there will be binaries in your `~/.m2/` folder.
 
 # Blogish
 
-These are mostly things I've run into and had to solve, and I decribe it here to help others with
-same problems and also future me. 
-
-These are very sporadic!
-
-## Coding related
-
-- [IDEA failing build due to some missing StringUtils ? Switch to maven wrapper!](https://www.craft.me/s/lGZUtgdhyazUUA)
-
-- [GitHub Projects has become very useful since I last checked!](https://www.craft.me/s/Qu100l9JZkHakZ) I which I had discovered this earlier rather than fight YouTrack<->IDEA!
-
-- [Quarkus tip for those new to Quarkus](https://rooms-lie-gal.craft.me/9raYR8WL0547n6)
+[A collection of blog entries done with Craft.](https://rooms-lie-gal.craft.me/alN6toGLC8GIcE)  
 
 # History
 
