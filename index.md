@@ -76,7 +76,7 @@ After that there will be binaries in your `~/.m2/` folder.
 
 # Blogish
 
-[A collection of blog entries done with Craft.](https://rooms-lie-gal.craft.me/alN6toGLC8GIcE)  
+/ work in progress ... /
 
 # History
 
