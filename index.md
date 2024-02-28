@@ -76,7 +76,9 @@ After that there will be binaries in your `~/.m2/` folder.
 
 # Blogish
 
-/ work in progress ... /
+- [Failing maven build due to missing StringUtils](https://rooms-lie-gal.craft.me/5NI6bLBx8h0KWh)
+- [GitHub Projects](https://rooms-lie-gal.craft.me/0h0gTPFlRWWJRE)
+- [Minimize Quarkus Problems](https://rooms-lie-gal.craft.me/9JlgzwhFBy2Kt6)
 
 # History
 
