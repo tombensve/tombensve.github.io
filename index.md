@@ -80,16 +80,17 @@ After that there will be binaries in your `~/.m2/` folder.
 
 # History
 
-I'm a software developer that wrote my first code on a when I was 12. Here is some hardware and OS:es I've used:
+Professionally I wrote C code in the beginning, but became a consultant later and happend to be in a project using Java 1.0.
+Be glad if you missd that! But Java has gotten better and better over time. I am however not in agreement with Oracles
+descicion to skip backwards compatibility from 12 and upp! I think that was stupid! So far no place I've been
+as a consultant have gone past Java 11! That says something IMHO. Java 6 was seen as a very good release. That 
+is because it took 4 or 5 years until Java 7. That provided stability! 
+
+Here are some hardware and OS:es I've used in my early years.
 
 - [Sinclair ZX-80 & zx-81 machines](https://en.wikipedia.org/wiki/ZX80)
 - [TRS-80 Color Computer](https://en.wikipedia.org/wiki/TRS-80_Color_Computer)
 - [OS9](https://www.microware.com/)
 
-I wrote C code at the beginning, but became a consultant later and happend to be in a project using Java 1.0.
-Be glad if you missd that! But Java has gotten better and better over time. I am however not in agreement with Oracles
-descicion to skip backwards compatibility from 12 and upp! I think that was stupid! So far no place I've been
-as a consultant have gone past Java 11! That says something IMHO. Java 6 was seen as a very good release. That 
-is because it took 4 or 5 years until Java 7. That provided stability! 
 
 
