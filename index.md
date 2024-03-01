@@ -82,6 +82,10 @@ descicion to skip backwards compatibility from 12 and upp! I think that was stup
 as a consultant have gone past Java 11! That says something IMHO. Java 6 was seen as a very good release. That 
 is because it took 4 or 5 years until Java 7. That provided stability! 
 
+Later versions of Groovy (still allowing 1.8 byttecocde to be produced) supports JDK 17 records, even for 1.8 code where it solves it under the surface in a way you don't have to care about! 
+
+There is a reason that most of my code is done in Groovy! Groovy also allows you to specify the byte code level to produce when building, independent of the code! I currently suppport 1.8 and 11 for my groovy code on GitHub. I'm currently considering also supporting 17, assuming that I can take current code and just produce version 17 bytecode. That does not mean using 17+ functionallity in my code, since there are no `#ifdef` in Java :-).
+
 Here are some hardware and OS:es I've used in my early years.
 
 - [Sinclair ZX-80 & zx-81 machines](https://en.wikipedia.org/wiki/ZX80)
