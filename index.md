@@ -41,16 +41,6 @@ Here is the configuration needed to access my binaries on Repsy.
 _In case you are already using something from me and have the old repository
 setup then you need to update to the above!_ 
 
-# Current status
-
-_I have early onset dementia, and are walking on the road to Alzheimers!_ 
-
-This means that I have more time with my GitHub projects, but also that I'm slower, 
-quite slower actually. My short term memory really sucks. But I will keep
-on coding here for as long as I can. My doctor encourage me to continue this to stimulate 
-my brain. This does not mean that I will lower my own requirements, but it will take longer 
-to implement them.
-
 # Why not maven central ? 
 
 Well, I did that once and that was an absolutely
