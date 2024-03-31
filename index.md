@@ -58,7 +58,6 @@ As you can see if you click on the links below, I'm using the excellent Craft ap
 
 It also allows for providng comments. In my first attempt to publish these I screwed up and accidentally deleted some comments by doing something I shouldn't have, lets leave it there! There was no way of getting it back, and I didn't read them before ...
 
-- [Failing maven build due to missing StringUtils](https://rooms-lie-gal.craft.me/5NI6bLBx8h0KWh)
 - [GitHub Projects](https://rooms-lie-gal.craft.me/0h0gTPFlRWWJRE)
 - [Minimize Quarkus Problems](https://rooms-lie-gal.craft.me/9JlgzwhFBy2Kt6)
 
