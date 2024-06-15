@@ -52,14 +52,13 @@ It is also possible to checkout my repo and build it with `mvn install`. After t
 
 [My GitHub Repos](https://github.com/tombensve/)
 
+----
+
 # Blogish
 
-As you can see if you click on the links below, I'm using the excellent Craft app for these! 
+[My Craft based attempt to mini blog for myself and whoever might be interested.](https://tombensvebloggish.craft.me/)
 
-It also allows for providng comments. In my first attempt to publish these I screwed up and accidentally deleted some comments by doing something I shouldn't have, lets leave it there! There was no way of getting it back, and I didn't read them before ...
-
-- [GitHub Projects](https://rooms-lie-gal.craft.me/0h0gTPFlRWWJRE)
-- [Minimize Quarkus Problems](https://rooms-lie-gal.craft.me/9JlgzwhFBy2Kt6)
+It will be mostly development related, and very sparsely updated. When I run into a problem and then solve it I will make an entry of the problem and solution. Mostly for myself, but it might also help others with same problem. 
 
 # History
 
