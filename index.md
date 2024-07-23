@@ -32,16 +32,6 @@ Here is the configuration needed to access my binaries on Repsy.
         </pluginRepository>
     </pluginRepositories>    
 
-**Why not GitHub Packages ?** Well, I've read up on Github Packages over, ane over, and over again. I comletely fail over, 
-and over, and over again to comprehend GitHubs documentation of GitHub packages. I get the feeling they can only be used
-within my account and not be made available to others. I managed for one of my projects to create a package, but completely
-failed to figure out how to access the package. As far as I have been able to determine GitHub does not provide a
-public maven repo to share binaries. 
-
-I'm starting to asume that GitHub packages are only for companies that wants to share binaries within their organization.
-
-----
-
 **Do note that binaries on my old webserver will stop working around April 2024!!**   
 
 _In case you are already using something from me and have the old repository
