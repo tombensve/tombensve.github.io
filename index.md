@@ -6,7 +6,7 @@ Are partly for need, but mostly a place were I'm having fun and stimulating my b
 
 It is so far only Java, Groovy and some JS here. I have decided to use Groovy as much as possible, because it is a superb language and completely compatible with Java! You can write way better code in Groovy than with Java, and Groovy have always had features that Java didn't get until 1.8, and Groovy still does it better! The people behind Groovy know what they are doing. I'm a big fan!
 
-I've previously criticised Oracle for non backwards compatibility, and I'm still somewhat devided, but [this](https://blogs.oracle.com/java/post/choosing-the-right-jdk-version?source=:em:nw:mt::::RC_DEVT240613P00013C00002:NSL400358085&elq_mid=256972&sh=712141428522138812131513831523&cmid=DEVT240613P00013C00002) article makes some good points.
+I've previously criticised Oracle for non backwards compatibility, and I'm still somewhat divided, but [this](https://blogs.oracle.com/java/post/choosing-the-right-jdk-version?source=:em:nw:mt::::RC_DEVT240613P00013C00002:NSL400358085&elq_mid=256972&sh=712141428522138812131513831523&cmid=DEVT240613P00013C00002) article makes some good points.
 
 # Binaries
 
