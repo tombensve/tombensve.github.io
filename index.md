@@ -2,7 +2,7 @@
 
 # My GitHub repos
 
-Are partly for need, but mostly a place were I'm having fun and stimulating my brain.
+Are partly for need, but mostly a place were I'm having fun playing with ideas!
 
 It is so far only Java, Groovy and some JS here. I have decided to use Groovy as much as possible, because it is a superb language and completely compatible with Java! You can write way better code in Groovy than with Java, and Groovy have always had features that Java didn't get until 1.8, and Groovy still does it better! The people behind Groovy know what they are doing. I'm a big fan!
 
