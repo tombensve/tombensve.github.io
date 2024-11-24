@@ -63,8 +63,8 @@ Professionally I wrote C code in the beginning, but became a consultant later an
 Here are some hardware and OS:es I've used in my early years.
 
 - [Sinclair ZX-80 & zx-81 machines](https://en.wikipedia.org/wiki/ZX80)
-- [TRS-80 Color Computer](https://en.wikipedia.org/wiki/TRS-80_Color_Computer)
-- [OS9](https://www.microware.com/)
+- [TRS-80 Color Computer](https://en.wikipedia.org/wiki/TRS-80_Color_Computer) which ran [OS9](https://www.microware.com/) wich were a fully multitasking operating system much inspired by unix. 
+
 
 
 
