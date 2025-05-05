@@ -2,7 +2,7 @@
 
 # New open source software licence 
 
-The [Human Software License 1.0 / HSL 1.0](https://tombensvebloggish.craft.me/hsl)
+The [Human Software License 1.0 / HSL 1.0](https://tombensvebloggish.craft.me/hsl) &nbsp;&nbsp;&nbsp;&nbsp; [On github](https://github.com/tombensve/HSL)
 
 # My GitHub repos
 
