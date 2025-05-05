@@ -1,10 +1,8 @@
 [Go to my GitHub Repos](https://github.com/tombensve/)
 
-----
+# New open source software licence 
 
-New open source software licence: [Human Software License 1.0 / HSL 1.0](https://tombensvebloggish.craft.me/hsl)
-
-----
+The [Human Software License 1.0 / HSL 1.0](https://tombensvebloggish.craft.me/hsl)
 
 # My GitHub repos
 
