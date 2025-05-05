@@ -1,5 +1,11 @@
 [Go to my GitHub Repos](https://github.com/tombensve/)
 
+----
+
+New open source software licence: [Human Software License 1.0 / HSL 1.0](https://tombensvebloggish.craft.me/hsl)
+
+----
+
 # My GitHub repos
 
 Are partly for need, but mostly a place were I'm having fun playing with ideas!
@@ -34,6 +40,8 @@ Here is the configuration needed to access my binaries on Repsy.
 
 _In case you are already using something from me and have the old repository
 setup then you need to update to the above!_ 
+
+# HSL 1.0 
 
 # Why not maven central ? 
 
