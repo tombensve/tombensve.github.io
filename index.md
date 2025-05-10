@@ -39,8 +39,6 @@ Here is the configuration needed to access my binaries on Repsy.
 _In case you are already using something from me and have the old repository
 setup then you need to update to the above!_ 
 
-# HSL 1.0 
-
 # Why not maven central ? 
 
 Well, I did that once and that was an absolutely horrible process to go through! I sent a mail to maven users list saying
