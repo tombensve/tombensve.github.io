@@ -1,5 +1,9 @@
 [Go to my GitHub Repos](https://github.com/tombensve/)
 
+# Opinions
+
+## [EU Cloud Needed!](https://tombensvebloggish.craft.me/b/07FD54B3-1348-43E1-BC4F-025A24BFF767/(2025-12-08)-Europe-EU-needs-to-ca)
+
 # New open source software licence 
 
 The [Human Software License 1.0 / HSL 1.0](https://tombensvebloggish.craft.me/hsl) &nbsp;&nbsp;&nbsp;&nbsp; [On github](https://github.com/tombensve/HSL)
