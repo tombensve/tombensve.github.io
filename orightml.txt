@@ -6,7 +6,7 @@ see no reason for not being able to do directly in GitHub UI by github doing
 those actions for you and commet when you delete, but NO!
 
 Also in Safari only the botom half of the first line will be shown when reading. 
-If ith is a Apple bug or GitHub bug I don't know.
+If it is an Apple bug or GitHub bug I don't know.
 
 It is also cutting the bottom of last line in preview. I'm considering doing all 
 my development in a virtual Linux instead to go around shit like this!
