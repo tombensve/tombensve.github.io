@@ -2,3 +2,6 @@ Since I cannot delete this file while in GitHub, only crate and add to it
 I will have to check out this repo, remove the file and then commit, which I
 see no reason for not being able to do directly in GitHub UI by github doing
 those actions for you and commet when you delete, but NO!
+
+Also in Safari only the botom half of the first line will be shown when reading. 
+If ith is a Apple bug or GitHub bug I don't know.
