@@ -2,11 +2,25 @@
 
 # Opinions
 
+## Humans
+
+- Are one among very few creatures that cannot stand others of its own kind!
+
+- The only reason we are the most inteligen creatue on the plannet is that we
+  define intelligence as being us!
+
+- We are the only creature on the planet that actively is destroying the planet
+  we live on without a backup plan!
+
+----
+
 ## [EU Cloud Needed!](https://tombensvebloggish.craft.me/b/07FD54B3-1348-43E1-BC4F-025A24BFF767/(2025-12-08)-Europe-EU-needs-to-ca)
 
 # New open source software licence 
 
 The [Human Software License 1.0 / HSL 1.0](https://tombensvebloggish.craft.me/hsl) &nbsp;&nbsp;&nbsp;&nbsp; [On github](https://github.com/tombensve/HSL)
+
+----
 
 # My GitHub repos
 
